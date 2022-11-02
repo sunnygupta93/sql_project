@@ -1,2 +1,31 @@
 # sql_project
 Indian_census_on_SQLserver(SSMS)
+
+
+Analysis--------
+
+female/male= sex_ratio
+
+females+ males= population
+
+females=population-males
+
+population-males=sex_ratio*males
+
+males= population/(1+sex_ratio)
+
+females= population- [population/(1+sex_ratio)]
+
+females= population*sex_ratio/(1+sex_rato)
+
+-------
+
+total literate people/population= literacy_ratio
+
+total literate people=population*literacy_ratio
+
+total illiterate people= (1-literacy_ratio)*population
+
+prev_census+ growth*prev_census=population
+
+prev_census= population/(1+growth)
